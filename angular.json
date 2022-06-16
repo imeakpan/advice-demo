@@ -5,6 +5,8 @@
     "advice": "apps/advice",
     "advice-e2e": "apps/advice-e2e",
     "api": "apps/api",
-    "api-interfaces": "libs/api-interfaces"
+    "api-interfaces": "libs/api-interfaces",
+    "data-access-content": "libs/data-access-content",
+    "feature-account": "libs/feature-account"
   }
 }

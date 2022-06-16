@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@advice-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@advice-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@advice-demo/data-access-content": [
+        "libs/data-access-content/src/index.ts"
+      ],
+      "@advice-demo/feature-account": ["libs/feature-account/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

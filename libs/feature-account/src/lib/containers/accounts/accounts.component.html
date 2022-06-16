@@ -1,0 +1,10 @@
+<p>accounts works!</p>
+
+<ng-container *ngIf="accounts$ | async as accounts">
+  <ng-container *ngFor="let account of accounts">
+    <advice-demo-account
+      [data]='account'>
+    </advice-demo-account>
+  </ng-container>
+</ng-container>
+
